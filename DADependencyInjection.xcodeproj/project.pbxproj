@@ -461,6 +461,7 @@
 					7757D2341E5A627400C23217 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = V7FR7N29C2;
+						LastSwiftMigration = 1250;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Siri = {
@@ -471,12 +472,14 @@
 					7757D2481E5A627400C23217 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = V7FR7N29C2;
+						LastSwiftMigration = 1250;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 7757D2341E5A627400C23217;
 					};
 					77A3A0771ECD1299009363DC = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = V7FR7N29C2;
+						LastSwiftMigration = 1250;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -763,7 +766,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = agostini.tech.DADependencyInjection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -778,7 +781,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = agostini.tech.DADependencyInjection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -792,7 +795,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = agostini.tech.DADependencyInjectionTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DADependencyInjection.app/DADependencyInjection";
 			};
 			name = Debug;
@@ -807,7 +810,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = agostini.tech.DADependencyInjectionTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DADependencyInjection.app/DADependencyInjection";
 			};
 			name = Release;
@@ -823,7 +826,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = agostini.tech.DADependencyInjection.SiriTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -838,7 +841,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = agostini.tech.DADependencyInjection.SiriTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};

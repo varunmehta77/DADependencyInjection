@@ -31,7 +31,7 @@ class ViewController: UIViewController {
     
     private func setupRefreshControl() {
         self.tableView.refreshControl = UIRefreshControl()
-        self.tableView.refreshControl?.addTarget(self, action: #selector(ViewController.refreshControlAction), for: UIControlEvents.valueChanged)
+        self.tableView.refreshControl?.addTarget(self, action: #selector(ViewController.refreshControlAction), for: UIControl.Event.valueChanged)
     }
     
     private func requestSiriAuthorization() {
