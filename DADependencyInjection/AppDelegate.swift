@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     func application(_ application: UIApplication, continue userActivity: NSUserActivity, restorationHandler: @escaping ([Any]?) -> Void) -> Bool {
-
+        print("test")
         if let title = userActivity.userInfo?[SiriConstants.ItemTitle.rawValue] as? String,
             let desc = userActivity.userInfo?[SiriConstants.ItemDescription.rawValue] as? String {
             
