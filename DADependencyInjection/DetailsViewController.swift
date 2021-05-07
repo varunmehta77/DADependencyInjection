@@ -10,6 +10,8 @@ import UIKit
 
 class DetailsViewController: UIViewController {
 
+    
+    
     public var itemTitle: String?
     public var itemDescription: String?
 
